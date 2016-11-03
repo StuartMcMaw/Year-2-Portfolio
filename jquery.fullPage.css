@@ -274,6 +274,7 @@ html.fp-enabled,
     background-image: url(images/garamond.jpg);
     background-size: cover;
     
+    
 }
 
 .image5{
@@ -282,7 +283,21 @@ html.fp-enabled,
     background-image: url(images/postr.jpg);
     background-size: cover;
     
+    
 }
+
+#postrlink{
+    display:block;
+    width: 100%;
+    height:100%;
+    overflow:hidden;
+    text-indent:100%;
+    white-space:nowrap;
+  
+    
+    
+}
+
 
 .text{
     color: black;
@@ -290,6 +305,28 @@ html.fp-enabled,
     text-align: center;
     margin-top: 200px;
     font-size: 100px;
+    font-family: 'Raleway', sans-serif;
+    
+    
+}
+
+.text6{
+    color: black;
+    width: 100%;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    
+    
+}
+
+.text-postr{
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 80px;
     font-family: 'Raleway', sans-serif;
     
     
@@ -318,7 +355,7 @@ html.fp-enabled,
     margin-left: auto;
     margin-right: auto;
     color: gainsboro;
-    
+   
     
     
     
@@ -334,7 +371,7 @@ html.fp-enabled,
     padding-top: 1px;
     padding-bottom: px;
     margin-left: 20px;
-    position: inherit;
+    
     
     
     
@@ -342,7 +379,11 @@ html.fp-enabled,
 
 .self{
     width: 100%;
+    height: 100%;
     padding: 5px 0 5px 0;
+    position: inherit;
+    
+
 }
 
 
@@ -355,6 +396,7 @@ html.fp-enabled,
     margin: 0 auto;
 /*    background-color: blue;*/
     height: 400px;
+    
     
     
 }
@@ -376,6 +418,40 @@ nav{
     margin-top: 10px;
     
 }
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+.self{
+    clear: both;
+    width:  100%;
+    margin: 0;
+    padding: 0;
+    margin-bottom:  -bottom: 10px;
+    
+}
+    
+}
+
+    
+    
 
 
 
